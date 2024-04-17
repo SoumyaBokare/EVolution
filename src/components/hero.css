@@ -1,0 +1,132 @@
+.hero{
+    margin:0px 120px;
+    margin-top:270px;
+    
+}
+
+.hero-text{
+    color:#fff;
+    font-size:70px;
+    font-weight:500;
+    line-height: 60px;
+    padding-left: 16.3vh;
+    margin-top:100px;
+}
+
+.hero-explore{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    width:fit-content;
+    margin-top:70px;
+    padding:5px 8px;
+    padding-left:30px;
+    border-radius:60px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 16.3vh;
+}
+
+.hero-explore p{
+    color:#292929;
+    font-size:20px;
+    font-weight:500;
+    
+}
+
+.hero-dot-play{
+    margin-top:120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-dots{
+    display:flex;
+    align-items:center;
+    gap:23px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.hero-dot {
+    display: flex;
+    justify-content: center;
+    width: 21%; /* Adjust as needed */
+}
+
+.hero-dot li {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    list-style: none;
+    margin: 0 5px;
+    width: 15px; /* Adjust as needed */
+    height: 15px; /* Adjust as needed */
+}
+
+.hero-dot.orange{
+    background: orangered;
+}
+
+.hero-play{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.hero-play p{
+    color:#fff;
+    font-size: 19px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .hero{
+        margin:0px 20px;
+        margin-top:150px;
+    }
+
+    .hero-text{
+        font-size:40px;
+        line-height: 45px;
+        padding-left: 8vh;
+        margin-top:50px;
+    }
+
+    .hero-explore{
+        gap:30px;
+        padding:5px 4px;
+        padding-left:15px;
+        margin-top:35px;
+        margin-left: 8vh;
+    }
+
+    .hero-explore p{
+        font-size:16px;
+    }
+
+    .hero-dot-play{
+        margin-top:60px;
+    }
+
+    .hero-dots{
+        gap:12px;
+    }
+
+    .hero-dot {
+        width: 10%; /* Adjust as needed */
+    }
+
+    .hero-dot li {
+        width: 10px; /* Adjust as needed */
+        height: 10px; /* Adjust as needed */
+    }
+
+    .hero-play{
+        gap:15px;
+    }
+
+    .hero-play p{
+        font-size: 16px;
+    }
+}
